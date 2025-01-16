@@ -16,16 +16,22 @@ This is a simple Python tool to check the safety of URLs.
 ## Installation:
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/url-safety-checker.git
+   git clone https://github.com/Abdoaljrmy/LinkoCheck.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd url-safety-checker
+    cd LinkoCheck
     ```
 
 3. Install the required libraries:
     ```bash
+    python3-venv python3-pip
+    
+    python3 -m venv venv
+    
+    source venv/bin/activate
+    
     pip install -r requirements.txt
     ```
 
